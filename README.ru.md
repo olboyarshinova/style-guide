@@ -2,6 +2,10 @@
 
 ---
 
+EN [English](./README.md) | RU [Русский](./README.ru.md)
+
+---
+
 ## Содержание
 
 - [HTML](#html)
