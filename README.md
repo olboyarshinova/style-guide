@@ -494,7 +494,7 @@ class Component {
 
 ---
 
--Add `required: true` to all mandatory component input parameters (`@Input`).
+- Add `required: true` to all mandatory component input parameters (`@Input`).
 
 Incorrect:
 
