@@ -11,7 +11,7 @@ EN [English](./README.md) | RU [Русский](./README.ru.md)
 - [HTML](#html)
 - [ACCESSIBILITY](#accessibility)
 - [SCSS](#scss)
-- [TS](#ts)
+- [TYPESCRIPT](#ts)
 - [TESTING](#testing)
 
 ---
@@ -389,7 +389,7 @@ button:focus-visible {
 
 ---
 
-## TS
+## TYPESCRIPT
 
 
 - Для всех полей и методов класса должны быть указаны модификаторы доступа (public, private, protected).
