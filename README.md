@@ -39,7 +39,7 @@ Incorrect:
     </div>
     <div class="flex flex-row w-full align-self-stretch">
         <app-site-visitors-table [clients]="clientGroups"/>
-        <app-available-communications-canals-table [data]="communicationCanalsData"/>
+        <app-available-communications-canals-table [data]="communicationCanals"/>
     </div>
 </div>
 <div class="flex flex-row mt-3">
@@ -59,7 +59,7 @@ Correct:
 
     <div class="flex flex-row w-full align-self-stretch">
         <app-site-visitors-table [clients]="clientGroups"/>
-        <app-available-communications-canals-table [data]="communicationCanalsData"/>
+        <app-available-communications-canals-table [data]="communicationCanals"/>
     </div>
 </div>
 
