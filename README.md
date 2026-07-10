@@ -11,7 +11,7 @@ EN [English](./README.md) | RU [Русский](./README.ru.md)
 - [HTML](#html)
 - [ACCESSIBILITY](#accessibility)
 - [SCSS](#scss)
-- [TS](#ts)
+- [TYPESCRIPT](#ts)
 - [TESTING](#testing)
 
 ---
@@ -387,7 +387,7 @@ Errors, warnings, and success states must be accompanied by text or an icon.
 
 ---
 
-## TS
+## TYPESCRIPT
 
 
 - Access modifiers (`public, private, protected`) must be specified for all class fields and methods.
