@@ -11,7 +11,7 @@ EN [English](./README.md) | RU [Русский](./README.ru.md)
 - [HTML](#html)
 - [ACCESSIBILITY](#accessibility)
 - [SCSS](#scss)
-- [TYPESCRIPT](#ts)
+- [TYPESCRIPT](#typescript)
 - [TESTING](#testing)
 
 ---
