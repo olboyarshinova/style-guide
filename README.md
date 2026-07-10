@@ -241,12 +241,12 @@ public trackByFn (index: number, item: TestItem): number {
   
 Incorrect:
 ```html
-<div class="btn" (click)="submit()">Отправить</div>
+<div class="btn" (click)="submit()">Send</div>
 ```
 
 Correct:
 ```html
-<button type="button" (click)="submit()">Отправить</button>
+<button type="button" (click)="submit()">Send</button>
 ```
 
 ---
@@ -696,12 +696,12 @@ The decorator handles subscription/unsubscription automatically, reducing code a
 Incorrect:
 
 ```typescript
-// Необходимо подписаться
+// You need to subscribe
 public ngOnInit(): void {
     document.addEventListener('click', this.onCustomContentClick);
 }
 
-// И не забыть отписаться, иначе получим утечку памяти
+// Don't forget to unsubscribe, or you'll get a memory leak
 public ngOnDestroy(): void {
     document.removeEventListener('click', this.onCustomContentClick);
 }
@@ -710,7 +710,7 @@ public ngOnDestroy(): void {
 Correct:
 
 ```typescript
-// HostListener делает всё сам
+// HostListener does everything by itself
 @HostListener('click', ['$event'])
 public onCustomContentClick(event: MouseEvent): void {
     console.log(event.type);
@@ -810,7 +810,7 @@ if (baz) {
 
 This approach makes git diffs cleaner.
 
-Правильно:
+Correct:
 
 ```typescript
 const hero = {
