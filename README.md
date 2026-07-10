@@ -9,10 +9,10 @@ EN [English](./README.md) | RU [Русский](./README.ru.md)
 ## Table of Contents
 
 - [HTML](#html)
-- [ACCESSIBILITY](#accessibility)
+- [Accessability](#accessibility)
 - [SCSS](#scss)
-- [TYPESCRIPT](#typescript)
-- [TESTING](#testing)
+- [TypeScript](#typescript)
+- [Testing](#testing)
 
 ---
 
@@ -229,7 +229,7 @@ public trackByFn (index: number, item: TestItem): number {
 
 ---
 
-## ACCESSIBILITY
+## Accessability
 
 - Use semantic and interactive elements correctly.
   - Use appropriate HTML tags for their intended purpose:
@@ -387,7 +387,7 @@ Errors, warnings, and success states must be accompanied by text or an icon.
 
 ---
 
-## TYPESCRIPT
+## typescript
 
 
 - Access modifiers (`public, private, protected`) must be specified for all class fields and methods.
@@ -821,7 +821,7 @@ const hero = {
 
 ---
 
-## TESTING
+## Testing
 
 
 - Test Naming: `it('should [expected behavior] when [condition]')`
